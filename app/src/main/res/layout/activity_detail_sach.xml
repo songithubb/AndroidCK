@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detail_sach"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bongbong">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ten Sach"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loai Sach"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nha Xuat Ban"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tac Gia"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="So Sach"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/txt_TenSach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Conan"/>
+        <TextView
+            android:id="@+id/txt_LoaiSach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Truyen"/>
+        <TextView
+            android:id="@+id/txt_NXB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kim Dong"/>
+        <TextView
+            android:id="@+id/txt_TacGia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AOYAMA"/>
+        <TextView
+            android:id="@+id/txt_SoLuong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12"/>
+    </LinearLayout>
+</LinearLayout>
+
+    <Button
+        android:id="@+id/btn_cancle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cancle"/>
+</LinearLayout>
